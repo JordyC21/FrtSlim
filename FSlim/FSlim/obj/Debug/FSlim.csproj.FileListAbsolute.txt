@@ -1,0 +1,17 @@
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\FSlim.exe.config
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\FSlim.exe
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\FSlim.pdb
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.csproj.AssemblyReference.cache
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.csproj.SuggestedBindingRedirects.cache
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.frmLogin.resources
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.Properties.Resources.resources
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.Vistas.frmMadre.resources
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.csproj.GenerateResource.cache
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.csproj.CoreCompileInputs.cache
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.exe
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.pdb
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\EntityFramework.dll
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\EntityFramework.xml
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matri\OneDrive\Escritorio\Proyecto de programación\FSlim\FSlim\obj\Debug\FSlim.csproj.CopyComplete
