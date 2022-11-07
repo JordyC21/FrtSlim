@@ -1,6 +1,6 @@
-create database Fslim
+create database FrtSlim
 
-Use Fslim
+Use FrtSlim
 
 GO
 
@@ -14,12 +14,6 @@ CREATE TABLE Usuario (
 
 
 
-CREATE TABLE ventas (
-  idVenta Int primary key identity (1,1),
-  fecha datetime not null,
-  total decimal(19,2) not null
-);
-
 CREATE TABLE Categorias (
   idCategorias Int identity (1,1) primary key,
   nombre varchar(100)
@@ -27,28 +21,32 @@ CREATE TABLE Categorias (
 
 CREATE TABLE Proveedor (
   idProveedor Int identity (1,1) primary key,
-  nombre varchar(100)
+  proveedor varchar(100),
+  Direccion varchar(200),
+  Telefono varchar(120)
+
 );
 
 CREATE TABLE Productos (
-  idProducto Int identity (1,1) primary key,
+  IdProducto Int identity (1,1) primary key,
+  idProveedor int references Proveedor(IdProducto),
   nombre varchar(50),
   descripcion varchar(300),
   stock int,
   precio decimal(19,2),
-  idCategorias int,
-  idProveedor int,
   estado int,
-  CONSTRAINT fk_Categorias FOREIGN KEY (idCategorias) references Categorias(idCategorias),
-  CONSTRAINT fk_Proveedor  FOREIGN KEY (idProveedor) references Proveedor(idProveedor)
 );
 
 CREATE TABLE detalleVentas (
   idDetalleVentas Int identity (1,1) primary key,
+  idProducto int references Productos(IdProducto),
   cantidad int,
-  subTotal decimal(19,2),
-  idProducto int,
-  idVenta int,
-  CONSTRAINT fk_ventas  FOREIGN KEY (idVenta) references ventas(idVenta),
-  CONSTRAINT fk_Productos  FOREIGN KEY (idProducto) references Productos(idProducto)
+  fecha datetime,
+  Total decimal(19,2)
 );
+
+
+select *from Productos
+
+
+insert 
