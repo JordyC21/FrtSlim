@@ -33,6 +33,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnRegistros = new System.Windows.Forms.Button();
             this.barra2 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -40,12 +43,10 @@
             this.Titulo = new System.Windows.Forms.Panel();
             this.time = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Fecha = new System.Windows.Forms.Label();
             this.barra2.SuspendLayout();
             this.Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,7 +106,7 @@
             // 
             // barra2
             // 
-            this.barra2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(40)))), ((int)(((byte)(35)))));
+            this.barra2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.barra2.Controls.Add(this.panel7);
             this.barra2.Controls.Add(this.button3);
             this.barra2.Controls.Add(this.panel5);
@@ -123,6 +124,38 @@
             this.barra2.Name = "barra2";
             this.barra2.Size = new System.Drawing.Size(131, 450);
             this.barra2.TabIndex = 2;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Red;
+            this.panel7.Location = new System.Drawing.Point(0, 171);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 32);
+            this.panel7.TabIndex = 7;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.Location = new System.Drawing.Point(0, 171);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(131, 32);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "PROVEEDOREs";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(131, 36);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(717, 414);
+            this.panel5.TabIndex = 6;
             // 
             // panel4
             // 
@@ -160,6 +193,7 @@
             // Titulo
             // 
             this.Titulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.Titulo.Controls.Add(this.Fecha);
             this.Titulo.Controls.Add(this.time);
             this.Titulo.Cursor = System.Windows.Forms.Cursors.Default;
             this.Titulo.Dock = System.Windows.Forms.DockStyle.Top;
@@ -184,45 +218,14 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // panel5
-            // 
-            this.panel5.Location = new System.Drawing.Point(131, 36);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(717, 414);
-            this.panel5.TabIndex = 6;
-            // 
             // panel6
             // 
-            this.panel6.Location = new System.Drawing.Point(137, 36);
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(35)))), ((int)(((byte)(36)))));
+            this.panel6.Location = new System.Drawing.Point(131, 32);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(699, 411);
+            this.panel6.Size = new System.Drawing.Size(714, 418);
             this.panel6.TabIndex = 4;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Red;
-            this.panel7.Location = new System.Drawing.Point(0, 171);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 32);
-            this.panel7.TabIndex = 7;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(0, 171);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 32);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "PROVEEDOREs";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox1
             // 
@@ -245,6 +248,17 @@
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // Fecha
+            // 
+            this.Fecha.AutoSize = true;
+            this.Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fecha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Fecha.Location = new System.Drawing.Point(18, 9);
+            this.Fecha.Name = "Fecha";
+            this.Fecha.Size = new System.Drawing.Size(57, 20);
+            this.Fecha.TabIndex = 1;
+            this.Fecha.Text = "label1";
             // 
             // frmMadre
             // 
@@ -286,5 +300,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label Fecha;
     }
 }

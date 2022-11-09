@@ -63,6 +63,26 @@ namespace FSlim.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_h09RinsgRlpsAEkZOMLK_Q {
+            get {
+                object obj = ResourceManager.GetObject("1_h09RinsgRlpsAEkZOMLK-Q", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _13_proveedores {
+            get {
+                object obj = ResourceManager.GetObject("13_proveedores", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _889b6a4b_0f47_42b4_9ad4_92bd08d98472 {
             get {
                 object obj = ResourceManager.GetObject("889b6a4b-0f47-42b4-9ad4-92bd08d98472", resourceCulture);
@@ -103,6 +123,16 @@ namespace FSlim.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edd68fb240010b05541ae82c51c0cfc2 {
+            get {
+                object obj = ResourceManager.GetObject("edd68fb240010b05541ae82c51c0cfc2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f3c57ee5_5ede_49f2_af7b_ef89a10b3380 {
             get {
                 object obj = ResourceManager.GetObject("f3c57ee5-5ede-49f2-af7b-ef89a10b3380", resourceCulture);
@@ -116,6 +146,16 @@ namespace FSlim.Properties {
         internal static System.Drawing.Bitmap f3c57ee5_5ede_49f2_af7b_ef89a10b33801 {
             get {
                 object obj = ResourceManager.GetObject("f3c57ee5-5ede-49f2-af7b-ef89a10b33801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen_portada_blog {
+            get {
+                object obj = ResourceManager.GetObject("imagen-portada-blog", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

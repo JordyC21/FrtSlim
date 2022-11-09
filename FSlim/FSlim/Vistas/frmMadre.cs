@@ -39,20 +39,19 @@ namespace FSlim.Vistas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmProductos MostrarPro = new FrmProductos();
-            MostrarPro.Show();
+            AbrirFormhijo(new FrmProductos());
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             time.Text = DateTime.Now.ToString("H:mm:ss");
+            Fecha.Text = DateTime.Now.ToLongDateString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FrmVentas frmVentas = new FrmVentas();
-            frmVentas.Show();
-            
+            AbrirFormhijo(new FrmVentas());
+
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
@@ -62,14 +61,27 @@ namespace FSlim.Vistas
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FrmProveedores frmProveedores = new FrmProveedores();
-            frmProveedores.Show();  
+            AbrirFormhijo(new FrmProveedores());
         }
 
         private void btnRegistros_Click(object sender, EventArgs e)
         {
-            FrmRegistros frmRegistros = new FrmRegistros();
-            frmRegistros.Show();
+            AbrirFormhijo(new FrmRegistros());
+        }
+
+        private void AbrirFormhijo(object formhijo)
+        {
+            if (this.panel6.Controls.Count > 0)
+                this.panel6.Controls.RemoveAt(0);
+            Form fh = formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panel6.Controls.Add(fh);
+            this.panel6.Tag = fh;
+            fh.Show();
+
+
+       
         }
     }
 }

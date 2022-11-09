@@ -199,6 +199,10 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\edd68fb240010b05541ae82c51c0cfc2.png" />
+    <None Include="Resources\imagen-portada-blog.png" />
+    <None Include="Resources\1_h09RinsgRlpsAEkZOMLK-Q.png" />
+    <None Include="Resources\13_proveedores.png" />
     <None Include="Resources\889b6a4b-0f47-42b4-9ad4-92bd08d98472.jfif" />
     <None Include="Resources\b2d191e6-2a74-40a6-becb-df30bc137115.jfif" />
     <None Include="Resources\trash-can_115312.png" />
