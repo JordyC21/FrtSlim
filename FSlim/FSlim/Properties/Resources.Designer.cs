@@ -63,9 +63,29 @@ namespace FSlim.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _889b6a4b_0f47_42b4_9ad4_92bd08d98472 {
+            get {
+                object obj = ResourceManager.GetObject("889b6a4b-0f47-42b4-9ad4-92bd08d98472", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avatardefault_92824 {
             get {
                 object obj = ResourceManager.GetObject("avatardefault_92824", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b2d191e6_2a74_40a6_becb_df30bc137115 {
+            get {
+                object obj = ResourceManager.GetObject("b2d191e6-2a74-40a6-becb-df30bc137115", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +106,56 @@ namespace FSlim.Properties {
         internal static System.Drawing.Bitmap f3c57ee5_5ede_49f2_af7b_ef89a10b3380 {
             get {
                 object obj = ResourceManager.GetObject("f3c57ee5-5ede-49f2-af7b-ef89a10b3380", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f3c57ee5_5ede_49f2_af7b_ef89a10b33801 {
+            get {
+                object obj = ResourceManager.GetObject("f3c57ee5-5ede-49f2-af7b-ef89a10b33801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout {
+            get {
+                object obj = ResourceManager.GetObject("logout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Plus_36851 {
+            get {
+                object obj = ResourceManager.GetObject("Plus_36851", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refresh_arrow_1546 {
+            get {
+                object obj = ResourceManager.GetObject("refresh_arrow_1546", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_can_115312 {
+            get {
+                object obj = ResourceManager.GetObject("trash-can_115312", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

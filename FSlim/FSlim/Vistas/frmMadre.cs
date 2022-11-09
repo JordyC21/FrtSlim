@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using FSlim.Models; 
+using FSlim.Models;
+using FSlim.Vistas;
 
 namespace FSlim.Vistas
 {
@@ -20,23 +21,55 @@ namespace FSlim.Vistas
 
         private void frmMadre_Load(object sender, EventArgs e)
         {
-            MostrarProductos();
+            
         }
 
-        private void MostrarProductos()
-        {
-            using (FrtSlimEntities db = new FrtSlimEntities())
-            {
-              
-                //var ListaProductos = from prod in db.prod select prod;
-
-                dataGridView1.DataSource = db.Productos.ToList();
-            }
-        }
-
+       
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frmLogin SalirLogin = new frmLogin();
+            SalirLogin.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmProductos MostrarPro = new FrmProductos();
+            MostrarPro.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            time.Text = DateTime.Now.ToString("H:mm:ss");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmVentas frmVentas = new FrmVentas();
+            frmVentas.Show();
+            
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmProveedores frmProveedores = new FrmProveedores();
+            frmProveedores.Show();  
+        }
+
+        private void btnRegistros_Click(object sender, EventArgs e)
+        {
+            FrmRegistros frmRegistros = new FrmRegistros();
+            frmRegistros.Show();
         }
     }
 }

@@ -102,6 +102,30 @@
     <Compile Include="Vistas\frmMadre.Designer.cs">
       <DependentUpon>frmMadre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmRegistros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmRegistros.Designer.cs">
+      <DependentUpon>FrmRegistros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Vistas\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +141,18 @@
     </Compile>
     <EmbeddedResource Include="Vistas\frmMadre.resx">
       <DependentUpon>frmMadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmRegistros.resx">
+      <DependentUpon>FrmRegistros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Models\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -163,6 +199,13 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\889b6a4b-0f47-42b4-9ad4-92bd08d98472.jfif" />
+    <None Include="Resources\b2d191e6-2a74-40a6-becb-df30bc137115.jfif" />
+    <None Include="Resources\trash-can_115312.png" />
+    <None Include="Resources\Plus_36851.png" />
+    <None Include="Resources\refresh_arrow_1546.png" />
+    <None Include="Resources\f3c57ee5-5ede-49f2-af7b-ef89a10b33801.jpg" />
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

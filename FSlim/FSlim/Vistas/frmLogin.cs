@@ -29,7 +29,7 @@ namespace FSlim
                 {
                     MessageBox.Show("Bienvenido " + Login.nombre);
                     frmMadre frmMadre = new frmMadre();
-                    frmMadre.ShowDialog();
+                    frmMadre.Show();
                     this.Hide();
                 }
                 else
